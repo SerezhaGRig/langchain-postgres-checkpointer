@@ -1,0 +1,7 @@
+**/node_modules
+**/.idea
+**/.esbuild
+./esBundle
+.build
+**/.serverless
+.env-cmdrc
