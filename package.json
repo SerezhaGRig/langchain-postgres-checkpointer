@@ -1,0 +1,20 @@
+{
+  "name": "postgres-checkpointer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build/build.js",
+    "start": "node ./esBundle/bundle.js",
+    "migration:generate": "env-cmd -e migrate -f .env-cmdrc --use-shell \"ts-node ./node_modules/.bin/typeorm migration:generate ./src/entities -d ./src/config/typeorm.config.ts\"  || echo \"Migration file not created!\"",
+    "migration:run": "env-cmd -e migrate -f .env-cmdrc --use-shell \"ts-node ./node_modules/.bin/typeorm migration:run -d ./src/config/typeorm.config.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@drdgvhbh/postgres-error-codes": "^0.0.6",
+    "@langchain/langgraph": "^0.0.33",
+    "pg": "^8.12.0"
+  }
+}
