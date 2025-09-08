@@ -1,5 +1,5 @@
 {
-  "name": "@SerezhaGRig/langgraph-postgres-checkpointer",
+  "name": "langgraph-postgres-checkpointer",
   "version": "1.0.0",
   "description": "PostgreSQL checkpointer for LangGraph - persist and retrieve checkpoints for stateful AI workflows",
   "main": "dist/index.js",
