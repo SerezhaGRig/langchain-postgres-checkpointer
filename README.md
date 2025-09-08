@@ -1,4 +1,4 @@
-# langchain-postgres-checkpointer
+# langgraph-postgres-checkpointer
 
 copy checkpointer folder into your project and install required deps from package json
 
