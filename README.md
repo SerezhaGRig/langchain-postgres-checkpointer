@@ -13,13 +13,13 @@ A PostgreSQL-based checkpointer for LangGraph that enables persistent storage an
 ## Installation
 
 ```bash
-npm install @serezhagrig/langgraph-postgres-checkpointer
+npm i langgraph-postgres-checkpointer
 ```
 
 or with yarn:
 
 ```bash
-yarn add @SerezhaGRig/langgraph-postgres-checkpointer
+yarn add langgraph-postgres-checkpointer
 ```
 
 ## Prerequisites
