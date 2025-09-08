@@ -1,0 +1,53 @@
+# Source files (only distribute compiled)
+src/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.env
+.env-cmdrc
+.env.example
+
+# Development files
+*.test.ts
+*.spec.ts
+__tests__/
+coverage/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build tools
+.eslintrc*
+.prettierrc*
+jest.config.*
+
+# Documentation source
+docs/
+
+# Examples (optional, you might want to include these)
+examples/
+
+# Temporary files
+tmp/
+temp/
